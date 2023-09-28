@@ -1,0 +1,17 @@
+@import "~sanitize.css";
+@import "~sanitize.css/assets.css";
+@import "~sanitize.css/forms.css";
+@import "~sanitize.css/reduce-motion.css";
+@import "~sanitize.css/system-ui.css";
+@import "~sanitize.css/typography.css";
+@import "~sanitize.css/ui-monospace.css";
+
+.acme-spa {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.acme-spa-content {
+  flex: 1;
+}

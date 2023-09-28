@@ -1,0 +1,17 @@
+<single-spa-router>
+  <!--
+    This is the single-spa Layout Definition for your microfrontends.
+    See https://single-spa.js.org/docs/layout-definition/ for more information.
+  -->
+  <div class="acme-spa">
+    <route default>
+      <application name="@acme/ui-header"></application>
+      <div class="acme-spa-content">
+        <route path="auth">
+          <application name="@acme/mf-auth"></application>
+        </route>
+      </div>
+      <application name="@acme/ui-footer"></application>
+    </route>
+  </div>
+</single-spa-router>

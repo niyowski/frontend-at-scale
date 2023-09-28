@@ -1,0 +1,24 @@
+[id="single-spa-application:@acme/mf-auth"] {
+  a {
+    color: #006aff;
+    text-decoration: none;
+
+    &:hover {
+      color: #013e93;
+    }
+  }
+
+  .main-content {
+    padding: 0 2rem;
+  }
+
+  .auth-nav {
+    ul {
+      display: flex;
+    }
+
+    a {
+      margin-right: 1rem;
+    }
+  }
+}
