@@ -13,6 +13,10 @@ updates:
     ignore:
       - dependency-name: "*"
 	      update-types: ["version-update:semver-major"]
+	groups:
+      development-dependencies:
+        applies-to: 'version-updates'
+        dependency-type: 'development'
     open-pull-requests-limit: 3
     commit-message:
       prefix: "chore"
