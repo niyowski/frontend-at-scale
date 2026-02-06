@@ -35,7 +35,7 @@
     "concurrently": "^6.2.1",
     "cross-env": "^7.0.3",
     "identity-obj-proxy": "^3.0.0",
-    "webpack": "^5.75.0",
+    "webpack": "^5.104.1",
     "webpack-cli": "^4.10.0",
     "webpack-config-single-spa-react": "^4.0.0",
     "webpack-dev-server": "^4.0.0",
